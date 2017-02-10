@@ -1,6 +1,6 @@
 ################ SipCo Bulk SMS System ###########
 
-This is  PHP fronend for Gammu-smsd . You can use this application as  SMS marketing application for a small size business or you can use it  to schedule broadcast SMS greetings for birthday events etc., 
+This is  PHP front end for Gammu-smsd . You can use this application as  SMS marketing application for a small size business or you can use it  to schedule broadcast SMS greetings for birthday events etc., 
 
 Prerequistes : gammu-smsd , Mysql , Php , Apache ( webserver) installed 
 
@@ -77,11 +77,11 @@ connection = at115200
 [smsd]
 service = sql
 driver = native_mysql
-#if your SIM needs pin
+#########if your SIM needs pin
 PIN = 1234
 logfile = /var/log/gammu/smsdlog
 debuglevel = 1
-#runonreceive = /some/script
+########runonreceive = /some/script
 commtimeout = 30
 sendtimeout = 30
 user =  
